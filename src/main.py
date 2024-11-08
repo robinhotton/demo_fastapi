@@ -10,6 +10,6 @@ Base.metadata.create_all(engine)
 def home():
     return {"autre chose": "toto"}
 
-@app.get("/toto/")
+@app.get("/toto")
 def quelquechose():
     return {"bonjour": "toto"}
